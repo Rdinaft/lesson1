@@ -1,4 +1,4 @@
-#from pprint import pprint
+#from pprint import pprint #также сортирует по алфавиту
 
 hero_name = input('Enter your name:')
 stats = [
@@ -16,3 +16,13 @@ stats[0]['talents'].append('Stun')
 stats[1]['health'] = stats[1]['health'] - 2
 print(stats)
 #print(stats.get('name', default_name))
+
+weather_report = {'city': 'Moscow', 'temperature': '20'}
+print(weather_report['city'])
+weather_report['temperature'] = int(weather_report['temperature']) - 5
+print(weather_report)
+
+print(weather_report.get('country'))
+print(weather_report.get('country', 'Russia'))
+weather_report['date'] = '27.05.2019'
+print(len(weather_report))
