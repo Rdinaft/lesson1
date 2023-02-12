@@ -1,4 +1,4 @@
-from pprint import pprint
+#from pprint import pprint
 
 hero_name = input('Enter your name:')
 stats = [
@@ -14,5 +14,5 @@ stats = [
 #print(stats)
 stats[0]['talents'].append('Stun')
 stats[1]['health'] = stats[1]['health'] - 2
-pprint(stats)
+print(stats)
 #print(stats.get('name', default_name))
