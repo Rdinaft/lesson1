@@ -10,8 +10,8 @@ def get_summ(one, two, delimiter = '&'):
     #two = input('Enter second word: ')   
     end = one + ' ' + delimiter + ' ' + two
     end = str(end).upper()
-    print(end)
-get_summ('Learn', 'python')
+    return end
+print(get_summ('Learn', 'python'))
 
 def format_price(price):
     price = int(price)
