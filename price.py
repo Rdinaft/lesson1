@@ -1,10 +1,3 @@
-#price = 100
-#discount = 5
-
-#price_with_discount = price - price * discount / 100
-
-#print(price_with_discount)
-
 def get_summ(one, two, delimiter = '&'): 
     #one = input('Enter first word: ')    
     #two = input('Enter second word: ')   
