@@ -1,6 +1,5 @@
-def get_summ(one, two, delimiter = '&'): 
-    #one = input('Enter first word: ')    
-    #two = input('Enter second word: ')   
+def get_summ(one, two, delimiter = '&'):   
+   
     end = one + ' ' + delimiter + ' ' + two
     end = str(end).upper()
     return end
