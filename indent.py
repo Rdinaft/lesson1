@@ -1,13 +1,17 @@
 import random
 
-damage = random.randint(0, 6)
-start_health = 6
 
-result_health = start_health - damage
+def death_roulette():
+    damage = random.randint(0, 6)
+    start_health = 6
 
-def death_roulette(num):
+    result_health = start_health - damage
+
     if result_health == 0:
         print('Death!')
     else:
         print('Alive!')
-death_roulette(result_health)
+
+        
+if __name__ == '__main__':
+    death_roulette()
